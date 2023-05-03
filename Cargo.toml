@@ -1,0 +1,20 @@
+[package]
+name = "nostr_paywall_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.3.1"
+actix-web-lab = "0.19.1"
+anyhow = "1.0.70"
+base64 = "0.21.0"
+deadpool-postgres = "0.10.5"
+dotenv = "0.15.0"
+env_logger = "0.9.3"
+failure = "0.1.8"
+futures-util = "0.3.28"
+log = "0.4.17"
+nostr-rs-relay = { git = "https://github.com/scsibug/nostr-rs-relay", tag = "0.7.15" }
+serde_json = "1.0.96"
+tokio-postgres = "0.7.8"
+url = "2.3.1"
